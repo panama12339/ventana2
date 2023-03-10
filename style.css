@@ -1,6 +1,6 @@
 :root{
     --font-family-ms: "Montserrat", "sans-serif" ;
-    --font-family-mr: "Frances" , serif;
+    --font-family-mr: "Frances" , "serif";
 
 
     --dark-cyan: hsl(158, 36%, 37%);
@@ -29,7 +29,7 @@ body
     overflow: hidden;
 }
 
-.Product-content img{
+.Product-content picture img{
     width: 100%;
 }
 .Product-details{
@@ -72,6 +72,7 @@ body
     font-family: var(--font-family-mr);
     font-size: 32px;
     margin: 0 20px 0 0;
+    font-weight: 700;
 }
 
 .product-price span:nth-child(2){

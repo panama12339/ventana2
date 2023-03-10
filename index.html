@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./desktop1440.css" media="screen and (min-width: 1440px)">
   
   <title>Product preview card component</title>
 
@@ -16,7 +17,9 @@
 </head>
 <body>
 <div class="Product-content">
-  <img src="./images/image-product-mobile.jpg" alt="">
+  <picture>
+    <source media="(min-width:1440px)" srcset="./images/image-product-desktop.jpg">
+    <img src="./images/image-product-mobile.jpg" alt=""></picture>
   <div class="Product-details">
     <p class="Product-content__category">Perfume</p>
     <h2>Gabrielle Essence Eau De Parfum</h2>
